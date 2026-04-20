@@ -16,7 +16,7 @@ import matplotlib.patches as mpatches
 
 
 # ═══════════════════════════════════════════════════════════════
-#  Lògica del CA
+#  Lògica del CA -> Autòmata cèl·lular (cal observar com afecten les diferents decisions -> single, caotic, blanc, negre)
 # ═══════════════════════════════════════════════════════════════
 
 def make_rule_table(num: int) -> dict:
@@ -83,7 +83,7 @@ def gra_guixut(grid: np.ndarray, K: int = 2):
         blocs = grid[g, :n_blocs * K].reshape(n_blocs, K)
         cg[g] = (blocs.sum(axis=1) > K / 2).astype(np.int8)
 
-    # Inferència de la regla
+    # Inferència de la regla -> volem que quan li donem una x regla faci el que volem ,necesitem totes les regles
     pats = ['111', '110', '101', '100', '011', '010', '001', '000']
     comptes = {p: {0: 0, 1: 0} for p in pats}
 
@@ -115,7 +115,6 @@ def rule_description(num: int) -> str:
         126: "complex", 150: "fractal XOR", 184: "tràfic", 254: "tot ple",
     }
     return known.get(num, "")
-
 
 # ═══════════════════════════════════════════════════════════════
 #  Interfície gràfica
