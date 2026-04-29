@@ -1,0 +1,13 @@
+file title  : Vegetation
+id type     : integer
+file type   : ascii
+object type : polygon
+ref. system : plane
+ref. units  : deg
+unit dist.  : 1
+min. X      : 0
+max. X      : 100
+min. Y      : 0
+max. Y      : 100
+pos'n error : unknown
+resolution  : unknown
