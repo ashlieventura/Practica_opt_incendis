@@ -1,0 +1,22 @@
+file title  : Humidity (hours)
+data type   : ASCII
+file type   : IDRISI
+columns     : 50
+rows        : 50
+ref. system : Cartesian
+ref. units  : meters
+unit dist.  : 1.0
+min. X      : 0.0
+max. X      : 50
+min. Y      : 0.0
+max. Y      : 50
+pos'n error : unknown
+resolution  : 1
+min. value  : 5
+max. value  : 5
+display min : 5
+display max : 5
+value units : hours
+value label : Humidity delay
+value scale : 1.0
+value offset: 0.0
