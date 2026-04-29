@@ -1,0 +1,18 @@
+file title  : Vegetation — alta_humitat
+data type   : real
+file type   : ascii
+columns     : 50
+rows        : 50
+ref. system : Cartesian
+ref. units  : meters
+unit dist.  : 1.0
+min. X      : 0.0
+max. X      : 50.0
+min. Y      : 0.0
+max. Y      : 50.0
+pos'n error : unknown
+resolution  : 1
+min. value  : 11.2902
+max. value  : 14.8167
+value units : hours
+value label : Burn duration
